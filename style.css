@@ -1,0 +1,18 @@
+nav {
+  background-color: rgb(153, 151, 151);
+  border-radius: 10px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+canvas {
+  border: 1px solid black;
+}
