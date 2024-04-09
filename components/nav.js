@@ -8,6 +8,8 @@ export function renderNav() {
         <li><a href="/ex3/index.html">Exercice 3</a></li>
         <li><a href="/ex4/index.html">Exercice 4</a></li>
         <li><a href="/ex5/index.html">Exercice 5</a></li>
+        <li><a href="/ex6/index.html">Exercice 6</a></li>
+        <li><a href="/ex7/index.html">Exercice 7</a></li>
       </ul>
     </nav>
     `;

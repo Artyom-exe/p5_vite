@@ -7,7 +7,7 @@ const app = document.querySelector("#app");
 app.innerHTML=`
   ${renderNav()}
 
-  <h1>Exercice 4</h1>
+  <h1>Exercice 6</h1>
 
 `;
 
@@ -22,19 +22,22 @@ new p5(p => {
     let width = 800;
     let height = 800;
 
-    p.rectMode(p.CENTER);
-    p.rect(width/2, height/2, width/2);
-
     let x = width/2;
     let y = height/2;
-    let cote = width/2;
-    let midCote = cote/2;
+    let longueur = 400;
+    let hauteur = 200;
 
-    p.line(x,y - midCote,x, y + midCote);
-    p.line(x - midCote, y, x + midCote, y);
-    p.line(x-midCote, y+midCote, x+midCote, y-midCote);
-    p.line(x + midCote, y + midCote, y - midCote, x - midCote);
-    
+    for (let i = 0; i < 5; i++) {
+
+      p.ellipse(x, y, longueur, hauteur);
+
+        longueur-=20;
+        hauteur-=20;
+    } 
+
+
+
+
 };
 
 }, document.querySelector("#canvas"));
